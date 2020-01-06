@@ -1,0 +1,12 @@
+Nova.booting((Vue, router, store) => {
+    // Vue.component('index-email-builder', require('./components/IndexField'))
+    Vue.component('detail-email-builder', require('./components/DetailField'))
+    Vue.component('detail-email-builder-group', require('./components/DetailGroup'))
+    Vue.component('form-email-builder', require('./components/FormField'))
+    Vue.component('form-email-builder-group', require('./components/FormGroup'))
+    Vue.component('delete-email-builder-group-modal', require('./components/DeleteGroupModal'))
+    Vue.component('icon-arrow-down', require('./components/icons/ArrowDown'))
+    Vue.component('icon-arrow-up', require('./components/icons/ArrowUp'))
+    Vue.component('icon-plus-square', require('./components/icons/PlusSquare'))
+    Vue.component('icon-minus-square', require('./components/icons/MinusSquare'))
+})
