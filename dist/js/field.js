@@ -11438,7 +11438,7 @@ var render = function() {
                                 _vm._l(_vm.layouts, function(layout) {
                                   return _c(
                                     "div",
-                                    { staticClass: "border-b border-40" },
+                                    { staticClass: "border-b border-40 w-1/5" },
                                     [
                                       _c(
                                         "a",

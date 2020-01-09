@@ -30,7 +30,7 @@
                     >
                         <div>
                             
-                                <div v-for="layout in layouts" class="border-b border-40">
+                                <div v-for="layout in layouts" class="border-b border-40 w-1/5">
                                     <a  @click="addGroup(layout)"
                                         class="cursor-pointer flex items-center hover:bg-30 block py-2 px-3 no-underline font-normal bg-20">
                                         <div><p class="text-90">{{ layout.title }}</p></div>
